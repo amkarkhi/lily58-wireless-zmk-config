@@ -1,10 +1,21 @@
+# manifest:
+#   remotes:
+#     - name: amkarkhi
+#       url-base: https://github.com/amkarkhi
+#   projects:
+#     - name: zmk
+#       remote: amkarkhi
+#       revision: main
+#       import: app/west.yml
+#   self:
+#     path: config
 manifest:
   remotes:
-    - name: amkarkhi
-      url-base: https://github.com/amkarkhi
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
-      remote: amkarkhi
+      remote: zmkfirmware
       revision: main
       import: app/west.yml
   self:
