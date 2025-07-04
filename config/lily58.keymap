@@ -42,7 +42,6 @@
 &kp LCTRL  &kp C_VOL_DN     &kp K_MUTE        &kp C_VOL_UP      &trans      &kp CAPS    &trans      &kp RBKT    &trans      &kp MINUS   &kp KP_PLUS     &kp LBRC  &kp RBRC  &kp PIPE
                                               &trans            &trans      &trans      &trans      &kp RET     &mo 2       &kp DEL     &kp RALT
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         raise_layer {
@@ -60,7 +59,6 @@
 &kp F7      &kp F8         &kp F9           &kp F10             &kp F11     &kp F12     &trans      &trans      &kp KP_PLUS &kp MINUS   &kp EQUAL       &kp LBKT &kp RBKT  &kp BSLH
                                             &trans              &trans      &mo 1       &trans      &trans      &trans      &trans      &trans
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
